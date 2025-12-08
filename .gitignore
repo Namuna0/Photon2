@@ -1,9 +1,52 @@
-Library/
-Temp/
-Obj/
-Logs/
+# =========================================
+# Unity
+# =========================================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
 UserSettings/
-MemoryCaptures/
-Build/
-Builds/
-Packages/com.unity.*/*
+Recordings/
+
+# 生成されるメタファイル・キャッシュ
+/[Aa]ssets/AssetStoreTools*
+/[Ll]ibrary/Artifacts
+/[Ll]ibrary/GICache
+
+# Rider / VSCode 対応
+/.idea/
+/.vscode/
+
+# Crash / Error logs
+sysinfo.txt
+
+# -----------------------------------------
+# Visual Studio
+# -----------------------------------------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# =========================================
+# OS
+# =========================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
