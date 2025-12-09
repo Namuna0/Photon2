@@ -2,7 +2,7 @@ using Photon.Pun;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Actor : MonoBehaviourPun, IPunObservable
+public class Actor : MonoBehaviourPun
 {
     [SerializeField] private NavMeshAgent _meshAgent;
     [SerializeField] private Animator _animator;
@@ -21,27 +21,23 @@ public class Actor : MonoBehaviourPun, IPunObservable
         }
     }
 
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
-    {
-        if (stream.IsWriting)
-        {
-            // 自分の値を送信
-            stream.SendNext(_movingPosition);
-        }
-        else
-        {
-            // 他プレイヤーから受信
-            _movingPosition = (Vector3)stream.ReceiveNext();
-        }
-    }
 
     public void SetMovingPosition(Vector3 position)
     {
-        if (!photonView.IsMine) return;
+        if (photonView.IsMine)
+        {
+            photonView.RPC("RPC_SetTargetPosition", RpcTarget.Others, position);
+        }
 
         _movingPosition = position;
-
         _meshAgent.SetDestination(_movingPosition);
+    }
+
+    [PunRPC]
+    void RPC_SetTargetPosition(Vector3 target)
+    {
+        // 他プレイヤー側の処理
+        SetMovingPosition(target);
     }
 
     public void OnCallChangeFace()
