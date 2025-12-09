@@ -10,11 +10,7 @@ namespace PhotonTest
 
         public void PlayEffect(Vector3 position)
         {
-            var screenPos = _screenCamera.WorldToScreenPoint(position);
-            var worldPos = _worldCamera.ScreenToWorldPoint(screenPos);
-            worldPos.z = 0;
-
-            Instantiate(_originalEffect, worldPos, Quaternion.identity, transform);
+            var effect = Instantiate(_originalEffect, position, Quaternion.identity, transform);
         }
     }
 }

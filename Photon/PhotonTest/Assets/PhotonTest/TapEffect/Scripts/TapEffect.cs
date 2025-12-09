@@ -29,7 +29,7 @@ namespace PhotonTest
 
             _time += Time.deltaTime;
 
-            if (_time > 2.0f) Destroy(gameObject);
+            if (_time > 0.5f) Destroy(gameObject);
         }
     }
 }
