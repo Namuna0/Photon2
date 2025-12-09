@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2739995103474448652}
   - component: {fileID: 6512701285493205193}
   - component: {fileID: 3406518867749392673}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2254371825241777273}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 2757813815181858290}
   - component: {fileID: 279558189011328541}
   - component: {fileID: 2095299742021447062}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TapEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ Transform:
   m_GameObject: {fileID: 7203864658428840024}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: -0.02, y: 3.79, z: -3.34}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -149,5 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a315f9e609b504ebaa991a9fd19ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 3406518867749392673}
   _factor: 0
   _material: {fileID: -876546973899608171, guid: 6950226a72c16d3459dd8d10128494df, type: 3}
