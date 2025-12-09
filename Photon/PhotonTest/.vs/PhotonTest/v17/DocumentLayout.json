@@ -5,34 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|c:\\users\\sonaya.studioz-inc\\documents\\photon2\\photon\\photontest\\assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\scenes\\scripts\\mainscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\scenes\\scripts\\mainscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\photon\\photoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\photon\\photoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Library\\PackageCache\\com.unity.cinemachine@5342685532bb\\Runtime\\PostProcessing\\CinemachineAutoFocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.cinemachine@5342685532bb\\Runtime\\PostProcessing\\CinemachineAutoFocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\tapeffect\\scripts\\tapeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\tapeffect\\scripts\\tapeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\tapeffect\\scripts\\tapeffectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\tapeffect\\scripts\\tapeffectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\actor\\scripts\\secondactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\photontest\\actor\\scripts\\secondactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\actor\\scripts\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\photontest\\actor\\scripts\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CinemachineAutoFocus.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Library\\PackageCache\\com.unity.cinemachine@5342685532bb\\Runtime\\PostProcessing\\CinemachineAutoFocus.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.cinemachine@5342685532bb\\Runtime\\PostProcessing\\CinemachineAutoFocus.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Library\\PackageCache\\com.unity.cinemachine@5342685532bb\\Runtime\\PostProcessing\\CinemachineAutoFocus.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine@5342685532bb\\Runtime\\PostProcessing\\CinemachineAutoFocus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T07:57:03.063Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -65,82 +24,10 @@
               "RelativeDocumentMoniker": "Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
               "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
               "RelativeToolTip": "Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T05:21:16.641Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ActorController.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorController.cs",
-              "RelativeDocumentMoniker": "Assets\\PhotonTest\\Actor\\Scripts\\ActorController.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorController.cs",
-              "RelativeToolTip": "Assets\\PhotonTest\\Actor\\Scripts\\ActorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:25:58.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PhotonController.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Photon\\PhotonController.cs",
-              "RelativeDocumentMoniker": "Assets\\PhotonTest\\Photon\\PhotonController.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Photon\\PhotonController.cs",
-              "RelativeToolTip": "Assets\\PhotonTest\\Photon\\PhotonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:18:20.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SecondActor.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\SecondActor.cs",
-              "RelativeDocumentMoniker": "Assets\\PhotonTest\\Actor\\Scripts\\SecondActor.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\SecondActor.cs",
-              "RelativeToolTip": "Assets\\PhotonTest\\Actor\\Scripts\\SecondActor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T08:05:55.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TapEffect.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
-              "RelativeDocumentMoniker": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
-              "RelativeToolTip": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:19:36.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TapEffectView.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
-              "RelativeDocumentMoniker": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
-              "RelativeToolTip": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:17:14.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainSceneController.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
-              "RelativeDocumentMoniker": "Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
-              "RelativeToolTip": "Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T04:30:39.42Z"
             }
           ]
         }
