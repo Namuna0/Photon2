@@ -26,12 +26,12 @@ public class Actor : MonoBehaviourPun, IPunObservable
         if (stream.IsWriting)
         {
             // 自分の値を送信
-            stream.SendNext(transform.position);
+            stream.SendNext(_movingPosition);
         }
         else
         {
             // 他プレイヤーから受信
-            transform.position = (Vector3)stream.ReceiveNext();
+            _movingPosition = (Vector3)stream.ReceiveNext();
         }
     }
 
