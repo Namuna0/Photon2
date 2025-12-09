@@ -34,10 +34,10 @@ public class Actor : MonoBehaviourPun
     }
 
     [PunRPC]
-    void RPC_SetTargetPosition(Vector3 target)
+    void RPC_SetTargetPosition(Vector3 position)
     {
-        // ëºÉvÉåÉCÉÑÅ[ë§ÇÃèàóù
-        SetMovingPosition(target);
+        _movingPosition = position;
+        _meshAgent.SetDestination(_movingPosition);
     }
 
     public void OnCallChangeFace()

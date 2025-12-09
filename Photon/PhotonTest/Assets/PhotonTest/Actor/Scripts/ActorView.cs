@@ -9,6 +9,8 @@ public class ActorView : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         var actor = PhotonNetwork.Instantiate("Actor", Vector3.zero, Quaternion.identity).GetComponent<Actor>();
+        actor.transform.parent = transform;
+
         _actorList.Add(actor);
     }
 
