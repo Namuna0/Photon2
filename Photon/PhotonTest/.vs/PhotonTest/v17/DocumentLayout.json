@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|c:\\users\\sonaya.studioz-inc\\documents\\photon2\\photon\\photontest\\assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|c:\\users\\sonaya.studioz-inc\\documents\\photon2\\photon\\photontest\\assets\\photontest\\actor\\scripts\\actorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\actor\\scripts\\actorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActorView.cs",
+              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
+              "RelativeDocumentMoniker": "Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
+              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
+              "RelativeToolTip": "Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:24:11.905Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
               "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
               "RelativeToolTip": "Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAArwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T05:21:16.641Z",
               "EditorCaption": ""
