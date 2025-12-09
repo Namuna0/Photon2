@@ -7,6 +7,11 @@ public class MainSceneController : MonoBehaviour
     [SerializeField] private ActorView _actorView;
     [SerializeField] private TapEffectView tapEffectView;
 
+    private void Start()
+    {
+
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))

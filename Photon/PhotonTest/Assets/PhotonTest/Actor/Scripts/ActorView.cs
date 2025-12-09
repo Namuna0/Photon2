@@ -1,58 +1,22 @@
 using Photon.Pun;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
-public class ActorView : MonoBehaviourPun, IPunObservable
+public class ActorView : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private NavMeshAgent _meshAgent;
-    [SerializeField] private Animator _animator;
+    private List<Actor> _actorList = new List<Actor>();
 
-    private Vector3 _movingPosition;
-
-    private void Update()
+    public override void OnJoinedRoom()
     {
-        if (_meshAgent.velocity.sqrMagnitude < 0.05f)
-        {
-            _animator.SetBool("Running", false);
-        }
-        else
-        {
-            _animator.SetBool("Running", true);
-        }
-    }
-
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
-    {
-        if (stream.IsWriting)
-        {
-            // 自分の値を送信
-            stream.SendNext(transform.position);
-        }
-        else
-        {
-            // 他プレイヤーから受信
-            transform.position = (Vector3)stream.ReceiveNext();
-        }
+        var actor = PhotonNetwork.Instantiate("Actor", Vector3.zero, Quaternion.identity).GetComponent<Actor>();
+        _actorList.Add(actor);
     }
 
     public void SetMovingPosition(Vector3 position)
     {
-        if (!photonView.IsMine) return;
-
-        _movingPosition = position;
-
-        _meshAgent.SetDestination(_movingPosition);
-    }
-
-    public void OnCallChangeFace()
-    {
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "JumpTrigger")
+        foreach (var actor in _actorList)
         {
-            _animator.SetTrigger("Jump");
+            actor.SetMovingPosition(position);
         }
     }
 }
