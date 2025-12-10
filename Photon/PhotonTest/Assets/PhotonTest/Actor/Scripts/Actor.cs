@@ -9,7 +9,8 @@ public class Actor : MonoBehaviourPun
     [SerializeField] private Animator _animator;
 
     private Vector3 _movingPosition;
-    private bool _isJumping;
+
+    public bool IsJumping { get; private set; }
 
     private void Start()
     {
@@ -37,7 +38,7 @@ public class Actor : MonoBehaviourPun
 
     public void SetMovingPosition(Vector3 position)
     {
-        if (_isJumping) return;
+        if (IsJumping) return;
 
         if (photonView.IsMine)
         {
@@ -65,9 +66,12 @@ public class Actor : MonoBehaviourPun
         {
             _animator.SetTrigger("Jump");
 
-            StartCoroutine(JumoBreak());
+            StartCoroutine(JumpBreak());
 
-            _isJumping = true;
+            _meshAgent.avoidancePriority = 0;
+            _meshAgent.radius = 0.01f;
+
+            IsJumping = true;
         }
     }
 
@@ -75,11 +79,14 @@ public class Actor : MonoBehaviourPun
     {
         if (other.tag == "JumpTrigger")
         {
-            _isJumping = false;
+            _meshAgent.avoidancePriority = 10;
+            _meshAgent.radius = 0.1f;
+
+            IsJumping = false;
         }
     }
 
-    private IEnumerator JumoBreak()
+    private IEnumerator JumpBreak()
     {
         yield return new WaitForSeconds(0.9f);
 

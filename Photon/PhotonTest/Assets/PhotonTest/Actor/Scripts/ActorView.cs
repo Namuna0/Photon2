@@ -13,6 +13,19 @@ public class ActorView : MonoBehaviourPunCallbacks
     private Actor _mineActor;
     private List<Actor> _actors = new List<Actor>();
 
+    public bool IsJamping
+    {
+        get
+        {
+            foreach (var actor in _actors)
+            {
+                if (actor.IsJumping) return true;
+            }
+
+            return false;
+        }
+    }
+
     private void Start()
     {
         Instance = this;
