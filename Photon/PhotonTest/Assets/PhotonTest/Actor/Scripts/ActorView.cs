@@ -1,4 +1,5 @@
 using Photon.Pun;
+using Photon.Realtime;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
@@ -7,27 +8,53 @@ public class ActorView : MonoBehaviourPunCallbacks
 {
     [SerializeField] private CinemachineCamera _camera;
 
-    private List<Actor> _actorList = new List<Actor>();
+    public static ActorView Instance { get; private set; }
+
+    private Actor _mineActor;
+    private List<Actor> _actors = new List<Actor>();
+
+    private void Start()
+    {
+        Instance = this;
+    }
 
     public override void OnJoinedRoom()
     {
         var actor = PhotonNetwork.Instantiate("Actor", Vector3.zero, Quaternion.identity).GetComponent<Actor>();
-        actor.transform.SetParent(transform);
 
         if (actor.photonView.IsMine)
         {
+            actor.transform.SetParent(transform);
+
             _camera.Follow = actor.transform;
             _camera.LookAt = actor.transform;
-        }
 
-        _actorList.Add(actor);
+            _mineActor = actor;
+            _actors.Add(actor);
+        }
+    }
+
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        if (!PhotonNetwork.IsMasterClient) return;
+
+        foreach (var actor in _actors)
+        {
+            actor.photonView.RPC(nameof(Actor.RPC_ReceivelPositions),
+                newPlayer,
+                actor.transform.position,
+                actor.transform.rotation);
+        }
+    }
+
+    public void RegisterActor(Actor actor)
+    {
+        actor.transform.SetParent(transform);
+        _actors.Add(actor);
     }
 
     public void SetMovingPosition(Vector3 position)
     {
-        foreach (var actor in _actorList)
-        {
-            actor.SetMovingPosition(position);
-        }
+        _mineActor.SetMovingPosition(position);
     }
 }

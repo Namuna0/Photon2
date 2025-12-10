@@ -11,6 +11,11 @@ public class Actor : MonoBehaviourPun
     private Vector3 _movingPosition;
     private bool _isJumping;
 
+    private void Start()
+    {
+        ActorView.Instance?.RegisterActor(this);
+    }
+
     private void Update()
     {
         if (_meshAgent.velocity.sqrMagnitude < 0.05f)
@@ -23,6 +28,12 @@ public class Actor : MonoBehaviourPun
         }
     }
 
+    [PunRPC]
+    public void RPC_ReceivelPositions(Vector3 position, Quaternion rotation)
+    {
+        transform.position = position;
+        transform.rotation = rotation;
+    }
 
     public void SetMovingPosition(Vector3 position)
     {
@@ -38,7 +49,7 @@ public class Actor : MonoBehaviourPun
     }
 
     [PunRPC]
-    void RPC_SetTargetPosition(Vector3 position)
+    public void RPC_SetTargetPosition(Vector3 position)
     {
         _movingPosition = position;
         _meshAgent.SetDestination(_movingPosition);
