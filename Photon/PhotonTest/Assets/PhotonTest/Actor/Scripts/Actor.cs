@@ -1,7 +1,7 @@
 using Photon.Pun;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UIElements;
 
 public class Actor : MonoBehaviourPun
 {
@@ -9,6 +9,7 @@ public class Actor : MonoBehaviourPun
     [SerializeField] private Animator _animator;
 
     private Vector3 _movingPosition;
+    private bool _isJumping;
 
     private void Update()
     {
@@ -25,6 +26,8 @@ public class Actor : MonoBehaviourPun
 
     public void SetMovingPosition(Vector3 position)
     {
+        if (_isJumping) return;
+
         if (photonView.IsMine)
         {
             photonView.RPC("RPC_SetTargetPosition", RpcTarget.Others, position);
@@ -50,6 +53,29 @@ public class Actor : MonoBehaviourPun
         if (other.tag == "JumpTrigger")
         {
             _animator.SetTrigger("Jump");
+
+            StartCoroutine(JumoBreak());
+
+            _isJumping = true;
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "JumpTrigger")
+        {
+            _isJumping = false;
+        }
+    }
+
+    private IEnumerator JumoBreak()
+    {
+        yield return new WaitForSeconds(0.9f);
+
+        _meshAgent.speed = 0.66f;
+
+        yield return new WaitForSeconds(0.2f);
+
+        _meshAgent.speed = 3.5f;
     }
 }

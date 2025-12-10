@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\",
+  "WorkspaceRootPath": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\actor\\scripts\\actorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\actor\\scripts\\actorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\tapeffect\\scripts\\tapeffectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\tapeffect\\scripts\\tapeffectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|c:\\users\\sonaya.studioz-inc\\documents\\photon2\\photon\\photontest\\assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|c:\\users\\sonaya.studioz-inc\\documents\\photon2\\photon\\photontest\\assets\\photontest\\tapeffect\\scripts\\tapeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\tapeffect\\scripts\\tapeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\tapeffect\\scripts\\tapeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|c:\\users\\sonaya.studioz-inc\\documents\\photon2\\photon\\photontest\\assets\\photontest\\tapeffect\\scripts\\tapeffectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\tapeffect\\scripts\\tapeffectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|c:\\users\\akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\photon2\\photon\\photontest\\assets\\photontest\\actor\\scripts\\actorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\actor\\scripts\\actorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\scenes\\scripts\\mainscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\scenes\\scripts\\mainscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5166D50-4887-4780-F395-121243F58D17}|Assembly-CSharp.csproj|solutionrelative:assets\\photontest\\actor\\scripts\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,55 +34,66 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "MainSceneController.cs",
+              "DocumentMoniker": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
+              "RelativeDocumentMoniker": "Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
+              "ToolTip": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
+              "RelativeToolTip": "Assets\\PhotonTest\\Scenes\\Scripts\\MainSceneController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:26:31.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TapEffect.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
+              "DocumentMoniker": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
               "RelativeDocumentMoniker": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
+              "ToolTip": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
               "RelativeToolTip": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvx8AAAAbAAAAAAAAAA==",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwB8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T10:30:13.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TapEffectView.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
+              "DocumentMoniker": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
               "RelativeDocumentMoniker": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
+              "ToolTip": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
               "RelativeToolTip": "Assets\\PhotonTest\\TapEffect\\Scripts\\TapEffectView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T09:58:15.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ActorView.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
+              "DocumentMoniker": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
               "RelativeDocumentMoniker": "Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
+              "ToolTip": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
               "RelativeToolTip": "Assets\\PhotonTest\\Actor\\Scripts\\ActorView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAABFwAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T09:24:11.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Actor.cs",
-              "DocumentMoniker": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
+              "DocumentMoniker": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
               "RelativeDocumentMoniker": "Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
-              "ToolTip": "C:\\Users\\sonaya.studioz-inc\\Documents\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
+              "ToolTip": "C:\\Users\\Akegami\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Photon2\\Photon\\PhotonTest\\Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
               "RelativeToolTip": "Assets\\PhotonTest\\Actor\\Scripts\\Actor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T05:21:16.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T05:21:16.641Z"
             }
           ]
         }

@@ -2,7 +2,6 @@ using Photon.Pun;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class ActorView : MonoBehaviourPunCallbacks
 {
@@ -13,6 +12,7 @@ public class ActorView : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         var actor = PhotonNetwork.Instantiate("Actor", Vector3.zero, Quaternion.identity).GetComponent<Actor>();
+        actor.transform.SetParent(transform);
 
         if (actor.photonView.IsMine)
         {

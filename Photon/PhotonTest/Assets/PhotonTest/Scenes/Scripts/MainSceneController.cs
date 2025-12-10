@@ -1,16 +1,10 @@
 using PhotonTest;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MainSceneController : MonoBehaviour
 {
     [SerializeField] private ActorView _actorView;
     [SerializeField] private TapEffectView tapEffectView;
-
-    private void Start()
-    {
-
-    }
 
     void Update()
     {
@@ -26,7 +20,7 @@ public class MainSceneController : MonoBehaviour
             {
                 if (hit.collider)
 
-                _actorView.SetMovingPosition(hit.point);
+                    _actorView.SetMovingPosition(hit.point);
                 tapEffectView.PlayEffect(hit.point);
             }
         }
