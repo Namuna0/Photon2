@@ -56,12 +56,12 @@ public class Actor : MonoBehaviourPun
         float acceleration = _acceleration;
         if (!photonView.IsMine)
         {
-            for (int i = 0; i < _movingDelay * 60; i++)
+            for (int i = 0; i < (_movingDelay - 0.001f * (PhotonNetwork.GetPing() / 2)) * 60; i++)
             {
                 acceleration += Time.deltaTime * AccelerationSpeed;
                 acceleration = Mathf.Clamp(acceleration, 0, MovementSpeed);
 
-                deray += 0.00166f * acceleration;
+                deray += 0.016666f * acceleration;
             }
         }
 
@@ -123,7 +123,7 @@ public class Actor : MonoBehaviourPun
             photonView.RPC("RPC_SetTargetPosition", RpcTarget.Others, _shadow.transform.position, endPos, PhotonNetwork.Time);
         }
 
-        //yield return new WaitForSeconds(0.15f);
+        yield return new WaitForSeconds(0.001f * (PhotonNetwork.GetPing() / 2));
 
         RPC_SetTargetPosition(_shadow.transform.position, endPos, PhotonNetwork.Time);
     }
