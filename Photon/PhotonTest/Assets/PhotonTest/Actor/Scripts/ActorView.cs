@@ -55,8 +55,8 @@ public class ActorView : MonoBehaviourPunCallbacks
         {
             actor.photonView.RPC(nameof(Actor.RPC_ReceivelPositions),
                 newPlayer,
-                actor.transform.position,
-                actor.transform.rotation);
+                actor.ShadowTransform.position,
+                actor.ShadowTransform.rotation);
         }
     }
 
@@ -68,6 +68,8 @@ public class ActorView : MonoBehaviourPunCallbacks
 
     public void SetMovingPosition(Vector3 position)
     {
-        _mineActor.SetMovingPosition(position);
+        if (_mineActor == null) return;
+
+        StartCoroutine(_mineActor.SetMovingPosition(position));
     }
 }

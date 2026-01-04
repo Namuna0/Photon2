@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\NamePickNewGui.cs" />
+    <Compile Include="Assets\PhotonTest\Actor\Scripts\ActorLock.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\ChannelSelector.cs" />
@@ -73,29 +74,54 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\ChatIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\DestroyOnStart.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\FriendItem.cs" />
+    <Compile Include="Assets\PhotonTest\DebugText\DebugTextView.cs" />
     <Compile Include="Assets\PhotonTest\TapEffect\Scripts\TapEffect.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\ChatNewGui.cs" />
     <Compile Include="Assets\PhotonTest\TapEffect\Scripts\TapEffectView.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\TextButtonTransition.cs" />
+    <Compile Include="Assets\PhotonTest\Actor\Scripts\ActorShadow.cs" />
     <Compile Include="Assets\PhotonTest\Scenes\Scripts\MainSceneController.cs" />
     <Compile Include="Assets\PhotonTest\Photon\PhotonController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Resources\OpenSans\Apache License.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\UnityChan\Common\StyleSheets\AnimationsPreviewerRoot_Style.uss" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\README_UnityChan_en.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\UnityChan\Common\StyleSheets\Block_Style.uss" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\UnityChan\SD Unity-chan 3D Model Data\README_SD_UnityChan_en.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.dll" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\UnityChan\SD Unity-chan 3D Model Data\README_SD_UnityChan_jp.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\README_UnityChan_jp.txt" />
   </ItemGroup>
   <ItemGroup>
